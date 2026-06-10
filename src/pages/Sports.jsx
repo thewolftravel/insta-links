@@ -24,6 +24,7 @@ export default function Sports() {
       accentColor="#79a1b8"
       accentColorLight="#b9d7e8"
       buttons={sportsButtons}
+      instagramUrl="https://www.instagram.com/kbphotographer.sports/"
     />
   );
 }

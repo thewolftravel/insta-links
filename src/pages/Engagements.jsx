@@ -23,6 +23,7 @@ export default function Engagements() {
       accentColor="#5f7f73"
       accentColorLight="#7a8f7b"
       buttons={engagementsButtons}
+      instagramUrl="https://www.instagram.com/kbphotographer.engagement/"
     />
   );
 }

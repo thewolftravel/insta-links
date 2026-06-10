@@ -24,6 +24,7 @@ export default function Branding() {
       accentColorLight="#d9d9d9"
       bgPosition=" center center"
       buttons={brandingButtons}
+      instagramUrl="https://www.instagram.com/kbphotographer.branding/"
     />
   );
 }

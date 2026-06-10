@@ -10,7 +10,8 @@ export default function LinkTreeLayout({
   accentColor,
   accentColorLight,
   bgPosition,
-  buttons = []
+  buttons = [],
+  instagramUrl
 }) {
   return (
     <div className="lt-page" style={{ "--accent": accentColor, "--accent-light": accentColorLight }}>
@@ -51,13 +52,13 @@ export default function LinkTreeLayout({
 
         {/* Socials */}
         <footer className="lt-socials">
-          <a href="https://www.facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
+          <a href="https://www.facebook.com/KarinaBittencourtPhotographer" target="_blank" rel="noreferrer" aria-label="Facebook">
             <FaFacebook />
           </a>
-          <a href="https://www.pinterest.com" target="_blank" rel="noreferrer" aria-label="Pinterest">
+          <a href="https://br.pinterest.com/kbphotographercolorado/" target="_blank" rel="noreferrer" aria-label="Pinterest">
             <FaPinterest />
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+          <a href={instagramUrl} target="_blank" rel="noreferrer" aria-label="Instagram">
             <FaInstagram />
           </a>
         </footer>

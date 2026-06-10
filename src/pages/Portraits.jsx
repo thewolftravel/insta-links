@@ -25,6 +25,7 @@ export default function Portraits() {
       accentColor="#943a02"
       accentColorLight="#ffd9c2"
       buttons={portraitsButtons}
+      instagramUrl="https://www.instagram.com/kbphotographer.portraits/"
     />
   );
 }
