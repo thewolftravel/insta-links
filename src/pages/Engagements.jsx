@@ -9,6 +9,7 @@ const engagementsButtons = [
   { label: "Visit Galleries",        href: "https://kbphotographer.com/galleries#!/client?headless=true" },
   { label: "Vendors List",           href: "https://kbphotographer.com/vendors-list" },
   { label: "Take Me to the Blog",    href: "https://kbphotographer.com/blog" },
+  { label: "Support the photographer. Send coffee.",    href: "https://www.paypal.com/ncp/payment/TBW9YAUANXR48" },
 ];
 
 
