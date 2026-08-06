@@ -39,7 +39,7 @@ const brandingButtons = [
 
 
 
-export default function Branding() {
+export default function Bittencourt_k() {
   return (
     <LinkTreeLayout
       bgImage={bgImg}
