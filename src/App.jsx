@@ -4,7 +4,7 @@ import Engagements from "./pages/Engagements";
 import Sports from "./pages/Sports";
 import Portraits from "./pages/Portraits";
 import Branding from "./pages/Branding";
-import Bittencourt_k from "./pages/KBPhotographer";
+import KBPhotographer from "./pages/KBPhotographer";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
         <Route path="/sports" element={<Sports />} />
         <Route path="/portraits" element={<Portraits />} />
         <Route path="/branding" element={<Branding />} />
-        <Route path="/bittencourt_k" element={<Bittencourt_k />} />
+        <Route path="/kbphotographer" element={<KBPhotographer />} />
       </Routes>
     </BrowserRouter>
   );
