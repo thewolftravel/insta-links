@@ -1,6 +1,6 @@
 import LinkTreeLayout from "../components/LinkTreeLayout";
 import profileImg from "../assets/profile-kb.png";
-import bgImg from "../assets/kb-bg.webp";
+import bgImg from "../assets/kb-bg.jpeg";
 
 const brandingButtons = [
   { label: "Visit Website", href: "https://kbphotographer.com/" },
