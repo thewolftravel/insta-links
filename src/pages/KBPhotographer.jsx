@@ -5,15 +5,33 @@ import bgImg from "../assets/kb-bg.jpeg";
 const brandingButtons = [
   { label: "Visit Website", href: "https://kbphotographer.com/" },
   { label: "Contact Page", href: "https://kbphotographer.com/contact" },
-  {label: "Save My Contact", href: `${import.meta.env.BASE_URL}kbphotographer.vcf`},
-  {label: "Shop My Store", href: "https://kbphotographer.com/store"},
-  {label: "Visit Galleries",href: "https://kbphotographer.com/galleries"},
-  {label: "Instagram Couples Portraits",href: "https://www.instagram.com/kbphotographer.engagement/"},
-  {label: "Instagram Sports",href: "https://www.instagram.com/kbphotographer.sports/"},
-  {label: "Instagram Family Portraits",href: "https://www.instagram.com/kbphotographer.portraits/"},
-  {label: "Instagram Branding",href: "https://www.instagram.com/kbphotographer.branding/"},
-  {label: "Take Me to the Blog", href: "https://kbphotographer.com/blog" },
-  {label: "Support the photographer. Send coffee.",href: "https://www.paypal.com/ncp/payment/TBW9YAUANXR48"},
+  { label: "Shop My Store", href: "https://kbphotographer.com/store" },
+  { label: "Visit Galleries", href: "https://kbphotographer.com/galleries" },
+  {
+    label: "Instagram Couples Portraits",
+    href: "https://www.instagram.com/kbphotographer.engagement/",
+  },
+  {
+    label: "Instagram Sports",
+    href: "https://www.instagram.com/kbphotographer.sports/",
+  },
+  {
+    label: "Instagram Family Portraits",
+    href: "https://www.instagram.com/kbphotographer.portraits/",
+  },
+  {
+    label: "Instagram Branding",
+    href: "https://www.instagram.com/kbphotographer.branding/",
+  },
+  { label: "Take Me to the Blog", href: "https://kbphotographer.com/blog" },
+  {
+    label: "Save My Contact",
+    href: `${import.meta.env.BASE_URL}kbphotographer.vcf`,
+  },
+  {
+    label: "Support the photographer. Send coffee.",
+    href: "https://www.paypal.com/ncp/payment/TBW9YAUANXR48",
+  },
 ];
 
 
